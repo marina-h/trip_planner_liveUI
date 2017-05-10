@@ -51,22 +51,6 @@ $(function initializeMap () {
     styles: styleArr
   });
 
-  // const iconURLs = {
-  //   hotel: '/images/lodging_0star.png',
-  //   restaurant: '/images/restaurant.png',
-  //   activity: '/images/star-3.png'
-  // };
-
-  // function drawMarker (type, coords) {
-  //   const latLng = new google.maps.LatLng(coords[0], coords[1]);
-  //   const iconURL = iconURLs[type];
-  //   const marker = new google.maps.Marker({
-  //     icon: iconURL,
-  //     position: latLng
-  //   });
-  //   marker.setMap(currentMap);
-  // }
-
   // drawMarker('hotel', [40.705137, -74.007624]);
   // drawMarker('restaurant', [40.705137, -74.013940]);
   // drawMarker('activity', [40.716291, -73.995315]);
